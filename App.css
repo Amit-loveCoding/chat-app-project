@@ -1,0 +1,55 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+  background-color: whitesmoke;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1; 
+}
+
+.chat {
+  flex-grow: 1; 
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar-container {
+    display: none; 
+  }
+  
+  .footer-container {
+    left: 0;
+  }
+  
+  .header-container {
+    left: 0; 
+  }
+  
+  .app-container {
+    display: block; 
+    height: auto; 
+  }
+  
+  .chat-container {
+    margin-left: 0; 
+    padding: 20px; 
+  }
+}
+
+
+@media only screen and (min-width: 601px) {
+  .sidebar-container {
+    display: block; 
+  }
+  
+  .footer-container {
+    left: 263px;
+  }
+  
+  .header-container {
+    left: 262px; 
+  }
+}

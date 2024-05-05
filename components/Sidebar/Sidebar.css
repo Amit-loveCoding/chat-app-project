@@ -1,0 +1,84 @@
+.sidebar-container {
+  background-color: #f0f0f0;
+  padding: 10px;
+  position: fixed;
+  top: 0; 
+  height: 100vh;
+  width: auto;
+  border-right: 1px solid black;
+  box-shadow: 3px 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 1000; 
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9); 
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.user-details {
+  flex-grow: 1; 
+}
+
+.user-details h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.user-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+
+.conversation-section p {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.conversation-section span {
+  font-size: 18px;
+}
+
+.office-section {
+  margin-top: 20px;
+}
+
+.office-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.office-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.office-img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
